@@ -1,0 +1,57 @@
+#home {
+	position: relative;
+	width:100%;
+	overflow: hidden;
+}
+
+#home img {
+	width:100%;
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+#members {
+	width: 100%;
+	text-align: center;
+}
+
+.member {
+	vertical-align: text-top;
+	display: inline-block;
+	position: relative;
+	margin-left: 40px;
+	margin-right: 40px;
+	height: 300px;
+	margin-top: 40px;
+}
+
+.member a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.member p {
+	font-size: 16pt;
+	margin: 5px auto;
+	position: relative;
+	text-align: center;
+}
+
+.member img {
+	height: 200px;
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+	padding-bottom: 20;
+	transition: all .2s ease-in-out;
+	border-radius: 50%;
+}
+
+.member img:hover {
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.exec_board_cont {
+	max-width: 1200px;
+	margin: 0 auto 40px auto;
+}
